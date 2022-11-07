@@ -2,26 +2,39 @@
 <html>
 <head>
 <title>Quiz Page</title>
-
-<audio controls id = "TheGoodTheBadAndTheUgly">
-  <source src="TheGoodTheBadAndTheUgly.mp3" type="audio/mpeg"> 
-Your browser does not support the audio element.
-</audio>
-<p>1. The Good The Bad And The Ugly</p><br />
-
-<audio controls id = "LastOfTheMohicans">
-  <source src="LastOfTheMohicans.mp3" type="audio/mpeg"> 
-Your browser does not support the audio element.
-</audio>
-<p>2. The Last Of The Mohicans</p><br />
-
-<audio controls id = "FellowShipOfTheRing">
-  <source src="FellowShipOfTheRing.mp3" type="audio/mpeg"> 
-Your browser does not support the audio element.
-</audio>
-<p>3. The FellowShip Of The Ring</p><br />
-
-
+<link rel="icon" href="icon.jpg">
 
 </head>
+
+<body>
+<style>
+body {
+  background-image: url('quiz.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<div>
+<table style="border: 0; vertical-align: top;">
+<tr id="tr1">
+
+<td style="vertical-align:top;">
+<form id = "column1">
+    <a href="MovieThemes.html" >Movie Themes&emsp;</a><br />
+    <a href="MusicQuiz.html" target="targetframe">Music Quiz&emsp;</a><br />
+</form>
+</td>
+
+</tr>
+</table>
+</div>
+
+<div>
+    <iframe width="1800" height="700" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
+    </iframe>
+  </div>
+
+</body>
 </html>

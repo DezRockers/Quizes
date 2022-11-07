@@ -1,0 +1,98 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+function RevealAnswer(index)
+{
+	var answer = 'answer' + index;
+	var target = document.getElementById(answer);
+	target.style.visibility = "visible";
+}
+
+function HideAnswer(index)
+{
+	var answer = 'answer' + index;
+	var target = document.getElementById(answer);
+	target.style.visibility = "hidden";
+}
+
+</script>
+</head>
+
+<body>
+
+<H2 style="color:Black;">Western Movie Themes</H3>
+
+<table border="1" borderColor="Black">
+<tr id="tr1">
+
+<td style="vertical-align:top;">
+1. <audio controls id = "TheGoodTheBadAndTheUgly">
+  <source src="TheGoodTheBadAndTheUgly.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer1" style="visibility:hidden">The Good The Bad And The Ugly</p>
+<button type="button" onclick="RevealAnswer(1)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(1)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+2. <audio controls id = "LastOfTheMohicans">
+  <source src="LastOfTheMohicans.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer2" style="visibility:hidden">The Last Of The Mohicans</p>
+<button type="button" onclick="RevealAnswer(2)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(2)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+3. <audio controls id = "MagnificentSeven">
+  <source src="https://www.televisiontunes.com/uploads/audio/The Magnificent Seven.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer3" style="visibility:hidden">The Magnificent Seven</p>
+<button type="button" onclick="RevealAnswer(3)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(3)">Hide Answer</button>
+</td>
+</tr>
+
+<tr id="tr2">
+<td style="vertical-align:top;">
+4. <audio controls id = "TheBigCountry">
+  <source src="https://www.televisiontunes.com/uploads/audio/The Big Country.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer4" style="visibility:hidden">The Big Country</p>
+<button type="button" onclick="RevealAnswer(4)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(4)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+5. <audio controls id = "GunfightOKCorral">
+  <source src="https://www.televisiontunes.com/uploads/audio/Gunfight at the OK Corral.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer5" style="visibility:hidden">Gunfight at the OK Corral</p>
+<button type="button" onclick="RevealAnswer(5)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(5)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+6. <audio controls id = "ForAFewDollarsMore)">
+  <source src="Sixty Seconds To What (For A Few Dollars More).mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer6" style="visibility:hidden">Sixty Seconds To What (For A Few Dollars More)</p>
+<button type="button" onclick="RevealAnswer(6)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(6)">Hide Answer</button>
+</td>
+
+
+
+</tr>
+
+</body>
+
+</html>
