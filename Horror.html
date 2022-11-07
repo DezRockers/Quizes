@@ -1,23 +1,101 @@
 <html>
 <head>
 
+<script type="text/javascript">
+
+function RevealAnswer(index)
+{
+	var answer = 'answer' + index;
+	var target = document.getElementById(answer);
+	target.style.visibility = "visible";
+}
+
+function HideAnswer(index)
+{
+	var answer = 'answer' + index;
+	var target = document.getElementById(answer);
+	target.style.visibility = "hidden";
+}
+
+</script>
 </head>
 
 <body>
 
-<audio controls id = "Halloween">
+<H2 style="color:Black;">Horror Movie Themes</H3>
+
+<table border="1" borderColor="Black">
+<tr id="tr1">
+
+<td style="vertical-align:top;">
+1. <audio controls id = "Halloween">
   <source src="https://www.televisiontunes.com/uploads/audio/Halloween.mp3" type="audio/mpeg"> 
 Your browser does not support the audio element.
 </audio>
-<p>1. Halloween</p><br />
+<p id="answer1" style="visibility:hidden">Halloween</p>
+<button type="button" onclick="RevealAnswer(1)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(1)">Hide Answer</button>
+</td>
 
-<audio controls id = "Exorcist">
+<td style="vertical-align:top;">
+2. <audio controls id = "Exorcist">
   <source src="https://www.televisiontunes.com/uploads/audio/The Exorcist.mp3" type="audio/mpeg"> 
 Your browser does not support the audio element.
 </audio>
-<p>2. The Exorcist</p><br />
+<p id="answer2" style="visibility:hidden">The Exorcist</p>
+<button type="button" onclick="RevealAnswer(2)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(2)">Hide Answer</button>
+</td>
 
+<td style="vertical-align:top;">
+3. <audio controls id = "Omen">
+  <source src="https://www.televisiontunes.com/uploads/audio/The Omen.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer3" style="visibility:hidden">The Omen</p>
+<button type="button" onclick="RevealAnswer(3)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(3)">Hide Answer</button>
+</td>
+
+</tr>
+
+<tr id="tr2">
+
+<td style="vertical-align:top;">
+4. <audio controls id = "Shining">
+  <source src="https://www.televisiontunes.com/uploads/audio/The Shining.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer4" style="visibility:hidden">The Shining</p>
+<button type="button" onclick="RevealAnswer(4)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(4)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+5. <audio controls id = "NightmareOnElmStreet">
+  <source src="https://www.televisiontunes.com/uploads/audio/Nightmare on Elm Street - 1 2 Freddys Coming For You.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer5" style="visibility:hidden">Nightmare on Elm Street</p>
+<button type="button" onclick="RevealAnswer(5)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(5)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+6. <audio controls id = "Psycho">
+  <source src="https://www.televisiontunes.com/uploads/audio/Psycho.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer6" style="visibility:hidden">Psycho</p>
+<button type="button" onclick="RevealAnswer(6)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(6)">Hide Answer</button>
+</td>
+
+
+
+</tr>
 
 </body>
 
 </html>
+

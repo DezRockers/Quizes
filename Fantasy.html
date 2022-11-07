@@ -1,15 +1,101 @@
 <html>
 <head>
 
+<script type="text/javascript">
+
+function RevealAnswer(index)
+{
+	var answer = 'answer' + index;
+	var target = document.getElementById(answer);
+	target.style.visibility = "visible";
+}
+
+function HideAnswer(index)
+{
+	var answer = 'answer' + index;
+	var target = document.getElementById(answer);
+	target.style.visibility = "hidden";
+}
+
+</script>
+
 </head>
 
 <body>
 
-<audio controls id = "FellowShipOfTheRing">
+<H2 style="color:Black;">Fantasy Movie Themes</H3>
+
+<table border="1" borderColor="Black">
+<tr id="tr1">
+
+<td style="vertical-align:top;">
+1. <audio controls id = "FellowShipOfTheRing">
   <source src="FellowShipOfTheRing.mp3" type="audio/mpeg"> 
 Your browser does not support the audio element.
 </audio>
-<p>1. The FellowShip Of The Ring</p><br />
+<p id="answer1" style="visibility:hidden">Let It Be (Enya) - Fellow Ship Of The Ring</p>
+<button type="button" onclick="RevealAnswer(1)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(1)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+2. <audio controls id = "HarryPotter">
+  <source src="https://www.televisiontunes.com/uploads/audio/Harry Potter - Main Theme.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer2" style="visibility:hidden">Harry Potter Franchise</p>
+<button type="button" onclick="RevealAnswer(2)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(2)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+3. <audio controls id = "Frozen">
+  <source src="https://www.televisiontunes.com/uploads/audio/Frozen - Let it Go.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer3" style="visibility:hidden">Frozen - Let it Go</p>
+<button type="button" onclick="RevealAnswer(3)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(3)">Hide Answer</button>
+</td>
+
+</tr>
+
+<tr id="tr2">
+
+<td style="vertical-align:top;">
+4. <audio controls id = "Jumanji">
+  <source src="https://www.televisiontunes.com/uploads/audio/Jumanji.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer4" style="visibility:hidden">Jumanji</p>
+<button type="button" onclick="RevealAnswer(4)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(4)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+5. <audio controls id = "JurassicPark">
+  <source src="https://www.televisiontunes.com/uploads/audio/Jurassic Park.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer5" style="visibility:hidden">Jurassic Park Franchise</p>
+<button type="button" onclick="RevealAnswer(5)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(5)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+6. <audio controls id = "Superman">
+  <source src="https://www.televisiontunes.com/uploads/audio/Superman - 1978.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p id="answer6" style="visibility:hidden">Superman - 1978</p>
+<button type="button" onclick="RevealAnswer(6)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(6)">Hide Answer</button>
+</td>
+
+
+
+
+</tr>
 
 </body>
 
