@@ -1,0 +1,219 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="styles.css">
+
+<script type="text/javascript">
+
+function RevealAnswer(index)
+{
+	var answer = 'answer' + index;
+	var target = document.getElementById(answer);
+	target.style.visibility = "visible";
+}
+
+function HideAnswer(index)
+{
+	var answer = 'answer' + index;
+	var target = document.getElementById(answer);
+	target.style.visibility = "hidden";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<H2 style="color:Black;">Music Quiz</H3>
+
+<table border="1" borderColor="Black">
+<tr id="tr1">
+
+<td style="vertical-align:top;">
+1. <audio controls id = "American Pie">
+  <source src="American-Pie.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 5 seconds)</p>
+<p id="answer1" style="visibility:hidden">Madonna, American Pie</p>
+<button type="button" onclick="RevealAnswer(1)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(1)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+2. <audio controls id = "Black Sabbath-Snowblind">
+  <source src="Black Sabbath-Snowblind.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 5 seconds)</p>
+<p id="answer2" style="visibility:hidden">Black Sabbath, Snowblind</p>
+<button type="button" onclick="RevealAnswer(2)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(2)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+3. <audio controls id = "Men at Work-Down Under">
+  <source src="Men at Work-Down Under.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 5 seconds)</p>
+<p id="answer3" style="visibility:hidden">Men at Work, Down Under</p>
+<button type="button" onclick="RevealAnswer(3)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(3)">Hide Answer</button>
+</td>
+
+</tr>
+
+<tr id="tr2">
+
+<td style="vertical-align:top;">
+4. <audio controls id = "Dire Straits-tunnel of love">
+  <source src="Dire Straits-tunnel of love.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 25 seconds)</p>
+<p id="answer4" style="visibility:hidden">Dire Straits, tunnel of love</p>
+<button type="button" onclick="RevealAnswer(4)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(4)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+5. <audio controls id = "Pictures Of Matchstick Men">
+  <source src="Pictures Of Matchstick Men.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 20 seconds)</p>
+<p id="answer5" style="visibility:hidden">Status Quo, Pictures Of Matchstick Men</p>
+<button type="button" onclick="RevealAnswer(5)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(5)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+6. <audio controls id = "The Show Must Go On">
+  <source src="The Show Must Go On.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 26 seconds)</p>
+<p id="answer6" style="visibility:hidden">Elton John and Queen, The Show Must Go On</p>
+<button type="button" onclick="RevealAnswer(6)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(6)">Hide Answer</button>
+</td>
+
+</tr>
+
+<tr id="tr3">
+
+<td style="vertical-align:top;">
+7. <audio controls id = "Lynyrd Skynyrd-Free Bird">
+  <source src="Lynyrd Skynyrd-Free Bird.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 10 seconds)</p>
+<p id="answer7" style="visibility:hidden">Lynyrd Skynyrd, Free Bird</p>
+<button type="button" onclick="RevealAnswer(7)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(7)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+8. <audio controls id = "Believe">
+  <source src="Believe.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 20 seconds)</p>
+<p id="answer8" style="visibility:hidden">Cher, Believe</p>
+<button type="button" onclick="RevealAnswer(8)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(8)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+9. <audio controls id = "Jolene">
+  <source src="Jolene.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 5 seconds)</p>
+<p id="answer9" style="visibility:hidden">Dolly Parton, Jolene</p>
+<button type="button" onclick="RevealAnswer(9)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(9)">Hide Answer</button>
+</td>
+
+</tr>
+
+<tr id="tr3">
+
+<td style="vertical-align:top;">
+10. <audio controls id = "Meat Loaf-Paradise By The Dashboard Light">
+  <source src="Meat Loaf-Paradise By The Dashboard Light.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 7 seconds)</p>
+<p id="answer10" style="visibility:hidden">Meat Loaf, Paradise By The Dashboard Light</p>
+<button type="button" onclick="RevealAnswer(10)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(10)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+11. <audio controls id = "Cry-Me-a-River">
+  <source src="Cry-Me-a-River.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 32 seconds)</p>
+<p id="answer11" style="visibility:hidden">Michael Buble, Cry-Me-a-River</p>
+<button type="button" onclick="RevealAnswer(11)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(11)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+12. <audio controls id = "Foreigner-Waiting for a girl like you">
+  <source src="Foreigner-Waiting for a girl like you.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 25 seconds)</p>
+<p id="answer12" style="visibility:hidden">Foreigner, Waiting for a girl like you</p>
+<button type="button" onclick="RevealAnswer(12)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(12)">Hide Answer</button>
+</td>
+
+</tr>
+
+<tr id="tr3">
+
+<td style="vertical-align:top;">
+13. <audio controls id = "Fleetwood Mac-Tusk">
+  <source src="Fleetwood Mac-Tusk.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 20 seconds)</p>
+<p id="answer13" style="visibility:hidden">Fleetwood Mac, Tusk</p>
+<button type="button" onclick="RevealAnswer(13)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(13)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+14. <audio controls id = "White-Flag">
+  <source src="White-Flag.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 20 seconds)</p>
+<p id="answer14" style="visibility:hidden">Dido, White-Flag</p>
+<button type="button" onclick="RevealAnswer(14)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(14)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+15. <audio controls id = "Everybody-Hurts">
+  <source src="Everybody-Hurts.mp3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the artist and tune (2 points, 5 seconds)</p>
+<p id="answer15" style="visibility:hidden">REM, Everybody-Hurts</p>
+<button type="button" onclick="RevealAnswer(15)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(15)">Hide Answer</button>
+</td>
+
+
+</tr>
+
+</body>
+
+</html>
