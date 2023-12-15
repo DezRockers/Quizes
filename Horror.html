@@ -1,7 +1,7 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="horror-styles.css">
 
 <script type="text/javascript">
 
@@ -24,7 +24,17 @@ function HideAnswer(index)
 
 <body>
 
-<H2 style="color:Black;">Horror Movie Themes</H3>
+<style>
+body {
+  background-image: url('Horror/splatter.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+</style>
+
+<H2 style="color:Red;">Horror Movie Themes</H2>
 
 <table border="1" borderColor="Black">
 <tr id="tr1">
@@ -99,9 +109,45 @@ Your browser does not support the audio element.
 <button type="button" onclick="HideAnswer(6)">Hide Answer</button>
 </td>
 
+</tr>
+
+<tr id="tr3">
+<td style="vertical-align:top;">
+7. <audio controls id = "Friday13th" preload="auto">
+  <source src="Horror/Friday13th.mp3?raw=true" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the film and original film year (2 points, 7 seconds)</p>
+<p id="answer7" style="visibility:hidden">Friday the 13th, 1980</p>
+<button type="button" onclick="RevealAnswer(7)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(7)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+8. <audio controls id = "Texas" preload="auto">
+  <source src="Horror/TexasChainsawMassacre.mp3?raw=true" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the film and original film year (2 points, 36 seconds)</p>
+<p id="answer8" style="visibility:hidden">The Texas Chainsaw Massacre, 1974</p>
+<button type="button" onclick="RevealAnswer(8)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(8)">Hide Answer</button>
+</td>
+
+<td style="vertical-align:top;">
+9. <audio controls id = "Poltergeist" preload="auto">
+  <source src="Horror/Poltergeist.mp3?raw=true" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+<p>Name the film and original film year (2 points, 4 seconds)</p>
+<p id="answer9" style="visibility:hidden">Poltergeist, 1982</p>
+<button type="button" onclick="RevealAnswer(9)">Reveal Answer</button>
+<button type="button" onclick="HideAnswer(9)">Hide Answer</button>
+</td>
 
 
 </tr>
+
 
 </body>
 

@@ -1,7 +1,7 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="horror-styles.css">
 
 <script type="text/javascript">
 
@@ -25,7 +25,17 @@ function HideAnswer(index)
 
 <body>
 
-<H2 style="color:Black;">Fantasy Movie Themes</H3>
+<style>
+body {
+  background-image: url('Fantasy/hobbit.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+</style>
+
+<H2>Fantasy Movie Themes</H2>
 
 <table border="1" borderColor="Black">
 <tr id="tr1">
@@ -36,7 +46,7 @@ function HideAnswer(index)
 Your browser does not support the audio element.
 </audio>
 <p>Name the film, artist and tune name (3 points, 5 seconds)</p>
-<p id="answer1" style="visibility:hidden">Fellow Ship Of The Ring, Enya, May It Be</p>
+<p id="answer1" style="visibility:hidden">Fellowship Of The Ring, Enya, May It Be</p>
 <button type="button" onclick="RevealAnswer(1)">Reveal Answer</button>
 <button type="button" onclick="HideAnswer(1)">Hide Answer</button>
 </td>
